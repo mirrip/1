@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "title": "Видео 1",
+    "description": "Первый ролик",
+    "src": "videos/video-01.mp4"
+  }
+]
