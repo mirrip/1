@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#090b10">
+  <title>1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <h1>1</h1>
+      <p id="count" aria-live="polite">Загрузка…</p>
+    </header>
+
+    <section id="videoGrid" class="video-grid" aria-label="Видео"></section>
+
+    <section id="emptyState" class="empty" hidden>
+      <h2>Пока нет видео</h2>
+      <p>Добавьте ролики в папку <code>videos</code> и в файл <code>videos.json</code>.</p>
+    </section>
+  </main>
+
+  <dialog id="playerDialog" class="player-dialog">
+    <div class="player-shell">
+      <video id="player" controls playsinline preload="metadata" controlslist="nodownload noremoteplayback" disablepictureinpicture></video>
+      <div class="player-bar">
+        <div>
+          <h2 id="playerTitle"></h2>
+          <p id="playerMeta"></p>
+        </div>
+        <div class="player-actions">
+          <button id="fullscreenButton" type="button">На весь экран</button>
+          <button id="closeButton" type="button">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
