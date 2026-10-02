@@ -2,11 +2,11 @@
   {
     "title": "Видео 1",
     "description": "Первый ролик",
-    "src": "videos/video-01.mp4"
+    "src": "videos/video-01.mp4?v=2"
   },
   {
     "title": "Видео 2",
     "description": "Второй ролик",
-    "src": "videos/video-02.mp4"
+    "src": "videos/video-02.mp4?v=2"
   }
 ]
